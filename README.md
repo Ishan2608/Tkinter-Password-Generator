@@ -2,7 +2,7 @@
 A random and complex password generator GUI application built using Python-Tkinter
 
 # How it works
-<ol>
+<ul>
   <li>Enter the website name for which your entering password</li>
   <li>Enter the email/user_name or use default one.</li>
   <li>To change default email, simply change the value inserted in user_name_entry</li>
@@ -11,4 +11,4 @@ A random and complex password generator GUI application built using Python-Tkint
   <li>If the password for this website is already saved, u cannot save another entry for same website.</li>
   <li>You can also search the file for your password for a particular website by entering website name and then clicking on search button.</li>
   <li>If it exists, values will be shown, otherwise it will display that the entries for this website don't exist yet.</li>
-</ol>
+</ul>

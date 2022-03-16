@@ -62,13 +62,13 @@ def add_password():
         }
     }
 
-    # messagebox.showinfo(title="Success", message="Your Password was Saved")
     if len(password_) == 0 or len(website) == 0 or len(user_name) == 0:
         messagebox.showinfo(title='Error', message="You have left some entries empty")
         return
     else:
         ok = messagebox.askyesno(title=website, message=
         f"These are the details entered\nemail: {user_name}\npassword: {password_}\nIs it OK to save?")
+        messagebox.showinfo(title="Success", message="Your Password was Saved")
 
         if not ok:
             password_entry.delete(0, tk.END)

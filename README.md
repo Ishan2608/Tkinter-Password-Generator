@@ -12,6 +12,6 @@ A random and complex password generator GUI application built using Python-Tkint
   <li>You can also search the file for your password for a particular website by entering website name and then clicking on search button.</li>
   <li>If it exists, values will be shown, otherwise it will display that the entries for this website don't exist yet.</li>
 </ul>
-# Additional Features
+# Additional Features <br>
 The data format we use is JSON data <br>
 The application has kept all the possible errors in mind and implemented exception handling thoroughly.

@@ -1,18 +1,28 @@
-# Password-Generator---Tkinter
-A random and complex password generator GUI application built using Python-Tkinter
+# Password Generator
 
-# How it works
-<ul>
-  <li>Enter the website name for which your entering password</li>
-  <li>Enter the email/user_name or use default one.</li>
-  <li>To change default email, simply change the value inserted in user_name_entry</li>
-  <li>Add your own password or click on generate password to get a random and complex password.</li>
-  <li>Click on Add button to save the data to a json file. Then click on 'yes' to confirm and 'no' to cancel</li>
-  <li>If the password for this website is already saved, u cannot save another entry for same website.</li>
-  <li>You can also search the file for your password for a particular website by entering website name and then clicking on search button.</li>
-  <li>If it exists, values will be shown, otherwise it will display that the entries for this website don't exist yet.</li>
-</ul>
+Welcome to the Password Generator project! This GitHub repository hosts a user-friendly GUI application designed to help you manage your passwords securely. Whether you need a strong, randomly generated password or want to search for a saved password for a specific website, this Password Generator has you covered.
 
-# Additional Features <br>
-The data format we use is JSON data <br>
-The application has kept all the possible errors in mind and implemented exception handling thoroughly.
+## Overview
+
+The Password Generator is a versatile GUI app built using Python and Tkinter. It allows you to maintain and generate passwords for various websites, saving them in a convenient JSON file. With error handling for duplicate entries and non-existent websites, you can trust that your password data is managed with utmost care.
+
+## Technologies Used
+
+The Password Generator project harnesses the following technologies:
+
+- **Python:** The core language that powers the app's logic and controls the flow of data.
+
+- **Tkinter:** Used to create the graphical user interface, providing a seamless and interactive user experience.
+
+
+## Error Handling
+
+The Password Generator incorporates robust error handling:
+
+1. **Duplicate Entry Error:** If you attempt to save a password for a website that already exists in the saved data, an error will be shown to prevent overwriting the existing data unintentionally.
+
+2. **Non-Existent Website Error:** When you search for a password for a website that does not exist in the saved data, an error message will be displayed, guiding you to add the new website with its password.
+
+## Contribution
+
+We welcome contributions from intermediate-level developers interested in improving and expanding the Password Generator. Whether you have ideas for new features, UI enhancements, or error-handling improvements, your contributions are highly valued. Please feel free to raise issues and submit pull requests to contribute to the project's growth.
